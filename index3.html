@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a:link {
+  color: rgb(225, 226, 225);
+  background-color: black;
+  text-decoration:black;
+
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(10, 10, 10);
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+        body {
+             font-size: 20px;
+             text-align: justify;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         header {
+             background-color: grey;
+             background-color: #666;
+   padding: 3px;
+   text-align: center;
+   font-size: 27px;
+   color: white;
+         }
+         nav {
+             background-color:darkgrey;
+             float: left;
+   width: 13%;
+   height: 904.5px;
+         }
+         article {
+             float: left;
+   padding: 20px;
+   width: 84%;
+   background-color: lightgrey;
+   height: auto
+   ;
+ 
+         }
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>Tables</header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li><br>
+                <li><a href="index2.html">London</a></li>
+            <p><b>Form</b></p>
+            <li><a href="index5.html">Form</a></li>
+            <p><b>Fieldset</b></p>
+           <li><a href="index6.html">Fieldset</a></li>
+                
+            </ul>
+        </nav>
+        <article><br>
+    <h1>These are some tables</h1>
+    
+    <br>
+    <br>
+    <table border="1px" >
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header cloumn 3</th>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row 2 - Item 2</td>
+            <th rowspan="2" VALIGN="top">Row 2 - Item 3  
+                <br>
+                <br>
+                <table border="1px">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <td>item</td>
+                    </tr>
+                    
+
+              
+                
+                </table>
+                </th>
+             
+              
+                
+            <td>Row 2 - Item 4</td>
+        </tr>
+        <tr>
+            <th>Row 3: Nested Table 2
+                <br>
+                <br>
+            <table border="1px">
+                <tr>
+                    <th>Row 1 Header</th>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <th>Row 2 Header</th>
+                    <td>Item</td>
+                    </tr>
+                </th>
+                
+            </table>
+        
+        <td>Row 3 - Item 2</td>
+        <td rowspan="2">Row 3- Item 3</td>
+            </tr>
+            <tr>
+                <td>Row 4 - item 1</td>
+                <td>Row 4 - item 2</td>
+        
+                <td>Row 4 - item 3</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Row 5 - Lat row of outer table</td>
+                </tr>
+               
+            
+    </table><br>
+    <table border="1px">
+        <tr>
+            <th rowspan="3">S.No.</th>
+            <th rowspan="3">Name</th>
+            <th colspan="6">Subject</th>
+            <th rowspan="3">Total</th>
+        </tr>
+        <th colspan="6"><center>Marks</center></th>
+        <tr>
+            <th>Internal</th>
+            <th>Final</th>
+            <th>Internal</th>
+            <th>Final</th>
+            <th>Internal</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Bikash</td>
+            <td>10</td>
+            <td>12</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Bikesh</td>
+            <td>10</td>
+            <td>12</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Avinash</td>
+            <td>10</td>
+            <td>12</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Ram</td>
+            <td>10</td>
+            <td>12</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Abdul</td>
+            <td>10</td>
+            <td>12</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>43</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th colspan="9">Total</th>
+        </tr>
+       </table><br>
+       <table border="1px">
+        <tr>
+            <th colspan="6">Athletics day time table</th>
+        </tr>
+        <tr>
+            <th>Area</th>
+            <th>10am-11am</th>
+            <th>11am-12am</th>
+            <th>12am-1pm</th>
+            <th>1pm-2pm</th>
+            <th colspan="2">2pm-3pm</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Track</th>
+            <td>400m</td>
+            <td>200m</td>
+            <th rowspan="3">Lunch</th>
+            <td>800m</td>
+            <td>100m</td>
+        </tr>
+        <tr>
+            <td>Hurdles</td>
+            <td>1500m</td>
+            <td>Free</td>
+            <td>80m</td>
+        </tr>
+        <tr>
+            <th>Field</th>
+            <td>Discus</td>
+            <td>Javelin</td>
+            <td>Shot put</td>
+            <td>Hammer Throw</td>
+        </tr>
+        </table>
+        </article>
+        </section>
+</body>
+</html>

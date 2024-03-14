@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    a:link {
+  color: rgb(225, 226, 225);
+  background-color: black;
+  text-decoration:black;
+
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(10, 10, 10);
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+        body {
+             font-size: 20px;
+             text-align: justify;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         header {
+             background-color: grey;
+             background-color: #666;
+   padding: 3px;
+   text-align: center;
+   font-size: 27px;
+   color: white;
+         }
+         nav {
+             background-color:darkgrey;
+             float: left;
+   width: 13%;
+   height: 672px;
+         }
+         article {
+             float: left;
+   padding: 20px;
+   width: 84%;
+   background-color: lightgrey;
+   height: auto
+   ;
+ 
+         }
+         button {
+            width: 150px;
+            height: 35px;
+            border: none;
+            color: rgb(204, 224, 236);
+            background-color: blue;
+            font-size: 20px;
+            border-radius: 5px;
+            font-weight:500;
+        }
+        input {
+        float: right;
+            
+            background-color: lightblue;
+            border: 1px solid rgb(108, 214, 247);
+        }
+        fieldset {
+            width: 350px;
+  height: auto;
+            border-color: blue;
+            border-style: dotted;
+        }
+        legend {
+            color: blue;
+        }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>Fieldset</header>
+    <section>
+    <nav>
+        <li><a href="index.html">Home</a></li><br>
+        <li><a href="index2.html">London</a></li><br>
+        <p><b>Table</b></p>
+        <li><a href="index3.html">Table</a></li><br>
+        <p><b>Form</b></p>
+        <li><a href="index5.html">Form</a></li>
+    </nav>
+    <article>
+        <form action="/submit_form" method="post">
+            <h1>User Registration Form</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="">Name:</label>
+                <input type="text"><br><br>
+                <label for="">Email Address:</label>
+                <input type="email"><br><br>
+                <label for="">Password:</label>
+                <input type="password"><br><br>
+                <label for="">Confirm Password:</label>
+                <input type="password">
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Address Detaild</legend>
+                <label for="">Address line one:</label>
+                <input type="text"><br><br>
+                <label for="">Address line two:</label>
+                <input type="text"><br><br>
+                <label for="">Town/city:</label>
+                <input type="text"><br><br>
+                <label for="">Zip/Post code:</label>
+                <input type="text"><br><br>
+            </fieldset><br>
+        
+        </form>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit">Sign Up</button>
+    </article>
+</section>
+
+</body>
+</html>
